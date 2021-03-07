@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // كتابة عنصر جي كوريري
-    //alert('loooooooooooooooooool');
+    //alert('test شكرا أستاذ نور');
 
 // استقبال الاحداص
     $('.delete').click(function(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
         
     // The following code shows the answer on click, but if we want hide it back then use 'slideToggle'
         $(this).next('.answer').slideToggle(); //slideDwon, hide, slideToggle, ...etc
-    })
+    });
 // اضافة عوامل من السي اس اس
     //$('.question').addClass('.pointer'); // 2 pooibilities: either with JS or CSS
 
@@ -30,6 +30,6 @@ $(document).ready(function(){
     $('.more').click(function(){
         $('.place-holder').load('more.html .readMore');
         return false; // حتى لا يحمل كل الصفحة وانما العنصر المراد فقط
-    })
+    });
 
-})
+});
